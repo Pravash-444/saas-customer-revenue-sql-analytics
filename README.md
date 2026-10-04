@@ -217,6 +217,23 @@ general conclusion that indexes are unnecessary.
 - `queries.sql` — SQL script containing table definitions, exploratory
   checks, business analysis queries, KPI views, and performance
   inspection.
+  
+## Key Insights
+
+- **Customer Base:** The business has 2,000 registered customers, with 1,331 currently active customers.
+- **Revenue:** Total successful revenue is 200,055.69 (currency not specified in the dataset).
+- **Payment Performance:** The overall payment success rate is 90.91%, indicating that some payment attempts are unsuccessful.
+- **Historical Paying Customers:** 458 customers have made at least one successful payment. This is a lifetime measure, not the number of current paying customers.
+- **Monthly Performance:** May 2026 recorded the highest monthly successful revenue at 8,594.12, while December 2024 had the lowest payment success rate at 83.87%.
+
+## Business Recommendations
+
+- **Improve Payment Success:** Investigate unsuccessful payments by payment method and identify opportunities to reduce payment failures.
+- **Monitor Customer Activity:** Track active customers and subscription status over time to identify changes in customer engagement.
+- **Investigate Revenue Trends:** Examine the factors contributing to monthly revenue fluctuations and the strong performance observed in May 2026.
+- **Strengthen Retention:** Use cohort and churn analyses to identify patterns in customer activity and inform retention initiatives.
+
+> **Note:** These recommendations are potential actions based on the analysis, not proven causes or outcomes. More detailed findings would require reviewing the corresponding query results.
 
 ## Author
 
