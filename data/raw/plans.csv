@@ -1,0 +1,6 @@
+plan_id,plan_name,monthly_price,billing_cycle
+1,Basic,9.99,Monthly
+2,Standard,19.99,Monthly
+3,Premium,39.99,Monthly
+4,Business,59.99,Monthly
+5,Annual Premium,399.0,Yearly
