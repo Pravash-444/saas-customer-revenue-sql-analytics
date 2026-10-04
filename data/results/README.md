@@ -1,21 +1,26 @@
-# Analysis Results
+# Selected Analysis Results
 
-This folder contains selected outputs generated from SQL queries in the SaaS Customer & Revenue Analytics project.
+This folder contains selected CSV outputs from the SaaS Customer &
+Revenue Analytics project.
 
-The results provide insights into customer behavior, revenue performance, subscription trends, churn, retention, and cohort analysis.
+  -----------------------------------------------------------------------
+  File                                Description
+  ----------------------------------- -----------------------------------
+  `monthly_revenue.csv`               Monthly successful revenue and
+                                      payment performance, including
+                                      payment volume, successful payment
+                                      count, and payment success rate.
 
-## Files
+  `monthly_churn.csv`                 Monthly customer churn results
+                                      based on the project's defined
+                                      churn calculation.
 
-- `monthly_revenue.csv` — Monthly successful revenue and payment performance.
-- `churn_retention.csv` — Monthly customer churn and retention metrics.
-- `cohort_analysis.csv` — Monthly product usage retention by customer signup cohort.
+  `monthly_retention.csv`             Monthly customer retention results
+                                      based on customers active at the
+                                      start of each month and churn
+                                      during that month.
+  -----------------------------------------------------------------------
 
-## Purpose
-
-These files make the results of the SQL analysis accessible for review without requiring users to execute the queries themselves.
-
-## Notes
-
-- Results are generated from the synthetic datasets included in this project.
-- The output files represent the results of the corresponding SQL queries.
-- No currency is specified in the dataset.
+The CSV files are exported query results for convenient review. Refer to
+the root `README.md` and `queries.sql` for the business questions,
+calculation definitions, and SQL logic.
